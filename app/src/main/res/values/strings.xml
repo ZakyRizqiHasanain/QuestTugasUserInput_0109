@@ -18,4 +18,8 @@
     <string name="skill_ui_ux">UI/UX</string>
     <string name="skill_web">Web</string>
     <string name="btn_proceed">Proceed</string>
+
+    <string name="desc_calendar_icon">Ikon Kalender</string>
+    <string name="desc_dropdown_icon">Ikon Dropdown</string>
+    <string name="desc_header_banner">Gambar Banner Neon Spider</string>
 </resources>
