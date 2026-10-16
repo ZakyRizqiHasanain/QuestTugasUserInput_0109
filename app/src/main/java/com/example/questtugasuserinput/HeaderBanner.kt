@@ -22,7 +22,7 @@ fun HeaderBanner(modifier: Modifier = Modifier) {
             .height(dimensionResource(R.dimen.header_banner_height))
     ) {
         Image(
-            painter = painterResource(R.drawable.bg_header_spider),
+            painter = painterResource(R.drawable.bg_spider_banner),
             contentDescription = stringResource(R.string.desc_header_banner),
             contentScale = ContentScale.Crop,
             modifier = Modifier.matchParentSize()
