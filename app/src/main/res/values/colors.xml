@@ -12,4 +12,10 @@
     <color name="purple_banner_bg">#210936</color>
     <color name="bg_scaffold">#F5F5F7</color>
     <color name="bg_card_white">#FFFFFF</color>
+
+    <color name="text_primary">#1C1B1F</color>
+    <color name="text_subtitle">#8E8E93</color>
+    <color name="text_field_label">#3C3C43</color>
+    <color name="border_field_unfocused">#8E8E93</color>
+    <color name="border_field_focused">#6A3DE8</color>
 </resources>
