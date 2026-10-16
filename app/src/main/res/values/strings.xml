@@ -26,4 +26,8 @@
     <string name="btn_ok">OK</string>
     <string name="btn_cancel">Batal</string>
     <string name="date_display_format">%1$02d/%2$02d/%3$04d</string>
+
+    <string name="snackbar_result_format">"Nama: %1$s %2$s&#10;Email: %3$s&#10;Tgl Lahir: %4$s&#10;Pengalaman: %5$s&#10;Skill: %6$s"</string>
+    <string name="separator_comma">", "</string>
+    <string name="empty_dash">-</string>
 </resources>

@@ -17,23 +17,27 @@ import androidx.compose.ui.text.font.FontWeight
 @Composable
 fun ProceedButton(
     onClick: () -> Unit,
+    isEnabled: Boolean,
     modifier: Modifier = Modifier
 ) {
     val density = LocalDensity.current
-    val btnTextSp = with(density) { dimensionResource(id = R.dimen.font_size_button).toSp() }
+    val btnTextSp = with(density) { dimensionResource(R.dimen.font_size_button).toSp() }
     Button(
         onClick = onClick,
+        enabled = isEnabled,
         modifier = modifier
             .fillMaxWidth()
-            .height(dimensionResource(id = R.dimen.button_height)),
-        shape = RoundedCornerShape(dimensionResource(id = R.dimen.button_corner_radius)),
+            .height(dimensionResource(R.dimen.button_height)),
+        shape = RoundedCornerShape(dimensionResource(R.dimen.button_corner_radius)),
         colors = ButtonDefaults.buttonColors(
-            containerColor = colorResource(id = R.color.btn_bg),
-            contentColor = colorResource(id = R.color.btn_text)
+            containerColor = colorResource(R.color.btn_bg_active),
+            contentColor = colorResource(R.color.btn_text_active),
+            disabledContainerColor = colorResource(R.color.btn_bg_inactive),
+            disabledContentColor = colorResource(R.color.btn_text_inactive)
         )
     ) {
         Text(
-            text = stringResource(id = R.string.btn_proceed),
+            text = stringResource(R.string.btn_proceed),
             fontSize = btnTextSp,
             fontWeight = FontWeight.Bold
         )
