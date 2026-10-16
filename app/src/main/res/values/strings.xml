@@ -22,4 +22,8 @@
     <string name="desc_calendar_icon">Ikon Kalender</string>
     <string name="desc_dropdown_icon">Ikon Dropdown</string>
     <string name="desc_header_banner">Gambar Banner Neon Spider</string>
+
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Batal</string>
+    <string name="date_display_format">%1$02d/%2$02d/%3$04d</string>
 </resources>
